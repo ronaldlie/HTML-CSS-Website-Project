@@ -1,0 +1,625 @@
+* {padding: 0; margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.bungkus1 {
+    overflow: hidden;
+    clear: both;
+    background: black;
+}
+header{
+    overflow: hidden;
+    height: 100vh;
+}
+.videobg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    max-width: 100%;
+    opacity: 0.5;
+}
+.nav-area{
+    background: rgba(0, 0, 0, 0.4);
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.kirimenu {
+    margin: 20px 50px;
+    float: left;
+    color: white;
+    font-size: 30px;
+    opacity: 0.6;
+}
+.kirimenu a {
+    text-decoration: none;
+    color: white;
+}
+.kirimenu span {
+    color: #74b9ff;
+}
+.kirimenu:hover {
+    opacity: 1;
+}
+.kananmenu{
+    float: right;
+    list-style: none;
+    margin: 27px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.kananmenu li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.kananmenu li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+}
+.kananmenu li a:hover{
+    color: blue;
+}
+.sign {
+    margin-top: 30px;
+}
+.kananmenu li.sign {
+    background: #0984e3;
+    height: 40px;
+    bottom: 10px;
+    position: relative;
+    opacity: 0.5;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+.kananmenu li.sign:hover {
+    opacity: 1;
+}
+.kananmenu li.sign a {
+    color: white;
+    line-height: 40px;
+    position: relative;
+}
+.kananmenu li.sign a:hover {
+    color: blue;
+}
+.text {
+    position: relative;
+    top: 35%;
+    text-align: center;
+}
+.text h2 {
+    color: gold;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.text p {
+    position: relative;
+    top: 20%;
+    text-align: center;
+    font-size: 65px;
+    color: white;
+}
+.text p span {
+    color: #74b9ff;
+}
+button {
+    font-size: 20px;
+    background: #0984e3;
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin-top: 25px;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+.text button:hover {
+    opacity: 0.7;
+}
+.text1 {
+    text-align: center;
+}
+.text1 img {
+    width: 50px;   
+    height: 40px;
+}
+.text1 h2 span {
+    color: #74b9ff;
+}
+.bungkus {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.kiri {
+    width: 470px;
+    float: right;
+    display: block;
+    margin-right: 100px;
+    
+}
+.kiri img {
+    width: 100px;
+    height: 110px;
+    float: left;
+    z-index: -1;
+}
+.kiri h2 {
+    margin-left: 120px;
+}
+.kiri p {
+    margin-left: 120px;
+}
+
+.kanan {
+    float: left;
+    display: block;
+    width: 470px;
+    margin-top: -20px;
+}
+.kanan img {
+    width: 110px;
+    height: 110px;
+    float: left;
+    margin-right: 15px;
+    z-index: -1;
+}
+.kanan h2 {
+    margin-left: 120px;
+}
+.kanan p {
+    margin-left: 120px;
+}
+.tombolkiri {
+    margin-top: 5px;
+}
+.tombolkiri a{
+    color: blue;
+    text-decoration: none;
+}
+.tombolkiri:hover {
+    cursor: pointer;
+}
+.tombolkanan {
+    margin-top: 5px;
+}
+.tombolkanan a{
+    color: blue;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.tombolkanan:hover {
+    cursor: pointer;
+}
+.imagecontainer {
+    background: black;
+    max-height: 100%;
+}
+.banner {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.6;
+}
+.bannerbawah {
+    text-align: center;
+    position: relative;
+    margin-top: -180px;
+    top: -100px;
+}
+.bannerbawah h2 {
+    top: 0;
+    text-align: center;
+    color: #4a69bd;
+    font-size: 30px;
+}
+.bannerbawah h2 span {
+    color: white;
+}
+.bannerbawah p {
+    text-align: center;
+    color: #4a69bd;
+}
+.bannerbawah button {
+    display: inline-block;
+    margin-top: 50px;
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+    font-size: 20px;
+    background: #0984e3;
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+.bannerbawah button:hover {
+    opacity: 0.6;
+}
+.text2 {
+    text-align: center;
+    margin-top: 100px;
+}
+.text2 img {
+    width: 50px;   
+    height: 40px;
+}
+.text2 h2 span {
+    color: #74b9ff;
+}
+.bungkus2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.bio {
+    display: block;
+    border: 3px solid whitesmoke;
+    background-color: white;
+    border-radius: 10px;
+    width: 330px;
+    height: 90px;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 50%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.kirii .bio img {
+    padding-left: 20px;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.kirii .bio p {
+    margin-top: 10px;
+    margin-right: 60px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.kirii .tanda {
+    color: gold;
+}
+.kirii img {
+    width: 50px;   
+    height: 40px;
+    position: relative;
+}
+.kirii button {
+    display: block;
+    border: 3px solid whitesmoke;
+    background-color: white;
+    border-radius: 10px;
+    width: 330px;
+    height: 90px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+}
+.kirii button a:hover {
+    color: gold;
+}
+.kirii .tombolall {
+    background-color: #0984e3;
+}
+.kirii button a {
+    color: black;
+    font-size: 30px;
+}
+.kanann {
+    margin-top: -20px;
+    margin-left: 70px;
+    width: 650px;
+}
+.kanann img{
+    width: 650px;
+    height: 300px;
+}
+.kanann .tombol2 {
+    border: 3px solid black;
+}
+.banner2 {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.5;
+}
+.bungkus3 {
+    text-align: center;
+    position: relative;
+    margin-top: -630px;
+}
+.bungkus3 h2 {
+    color: blue;
+}
+.bungkus3 h2 span {
+    color: white;
+}
+.bungkus3 p {
+    color: #74b9ff;
+}
+.pilih a {
+    padding: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.pilih a:hover {
+    color: gold;
+}
+.pilih .tanda {
+    color: gold;
+}
+.tablespek {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    z-index: 1;
+}
+th, td {
+    padding: 30px;
+    text-align: center;
+    border: 2px solid white;
+}
+thead {
+    color: #74b9ff;
+    font-size: 25px;
+}
+tbody {
+    color: white;
+}
+.bungkus4 {
+    justify-content: center;
+    margin-left: 80px;
+    max-width: 100%;
+    display: flex;
+}
+.multikolom {
+    margin-top: 70px;
+    max-width: 100%;
+    display: flex;
+    position: relative;
+}
+.kotak1 {
+    border: 3px solid blue;
+    border-radius: 5px;
+    padding: 30px;
+    width: 300px;
+}
+.bawah1 {
+    float: left;
+    width: 350px;
+    margin-right: 35px;
+}
+.bawah1 .inside h3 {
+    color: red;
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 5px;
+}
+.bawah1 img {
+    width: 250px;   
+    height: 200px;
+}
+.bawah2 {
+    float: left;
+    width: 350px;
+    margin-right: 35px;
+}
+.bawah2 .inside h3 {
+    color: red;
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 5px;
+}
+.kotak2 {
+    border: 3px solid blue;
+    border-radius: 5px;
+    padding: 30px;
+    width: 300px;
+}
+.bawah2 .kotak2 {
+    position: relative;
+}
+.bawah2 img {
+    width: 250px;   
+    height: 200px;
+}
+
+.bawah3{
+    float: left;
+    width: 350px;
+    margin-right: 35px;
+}
+.bawah3 .inside h3 {
+    color: red;
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 5px;
+}
+.kotak3 {
+    border: 3px solid blue;
+    border-radius: 5px;
+    padding: 30px;
+    width: 300px;
+}
+.bawah3 .kotak3 {
+    position: relative;
+}
+.bawah3 img {
+    width: 250px;   
+    height: 200px;
+}
+.sosmed {
+    margin-top: 10px;
+}
+.sosmed img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.bungkusmapform {
+    margin-top: 75px;
+    justify-content: center;
+    display: flex;
+}
+.maps {
+    width: 100%;
+}
+.maps iframe {
+    width: 100%;
+}
+.bungkusform {
+    width: 100%;
+}
+.formbg {
+    width: 100%;
+}
+.backgroundform {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+form {
+    background-color: white;
+    padding : 40px;
+    margin: auto;
+    border-radius: 10px;
+    z-index: 1;
+    width: 400px;
+    height: 380px;
+}
+.forms {
+    position: relative;
+    margin-top: -540px;
+    z-index: 1;
+}
+.input{
+    line-height: 35px;
+    margin-bottom: 30px;
+    width: 180px;
+    padding : 0 0 0 10px;
+}
+.input1 {
+    line-height: 35px;
+    margin-left: 20px;
+    width: 160px;
+    padding : 0 0 0 10px;
+}
+.form2 input {
+    width: 380px;
+}
+.form3 input {
+    width: 380px;
+    height: 160px;
+}
+.formbutton {
+    margin-top: -5px;
+    border-radius: 0;
+}
+.bungkustambahan {
+    justify-content: center;
+    display: flex;
+}
+.bawahlast {
+    text-align: center;
+    width: 700px;
+}
+.bawahlast p {
+    border-top: 1px solid red;
+}
+.input2 {
+    line-height: 35px;
+    margin-bottom: 30px;
+    width: 150px;
+    padding : 0 0 0 10px;
+    margin-right: 20px;
+}
+.tombolbawah {
+    margin-top: -10px;
+    background-color: blueviolet;
+    border-radius: 0;
+    margin-right: 17px;
+}
+.opsi {
+    padding: 8px;
+    margin-right: 17px;
+}
+.bungkusbuttonluar {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.bungkustombolbawah {
+    width: 1300px;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+
+}
+
+.buttonlast {
+    text-align: center;
+    border: 1px solid black;
+    padding-bottom: 25px;
+    padding-left: 20px;
+}
+.buttonlast .tombolbawah {
+    background-color: red;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.buttonlast .tombolbawah1 {
+    background-color: green;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.buttonlast .tombolbawah2 {
+    background-color: blue;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.buttonlast .tombolbawah3 {
+    background-color: violet;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 30px;
+    background-color: gray;
+}
+footer a {
+    color: #74b9ff;
+    text-decoration: none;
+}
